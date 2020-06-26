@@ -1,0 +1,872 @@
+ Volume in Laufwerk C: hat keine Bezeichnung.
+ Volumeseriennummer: D058-7994
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  16:02    <DIR>          Java_File_IO_Examples
+26.06.2020  16:10    <DIR>          Java_JDBC_Examples
+26.06.2020  14:58                56 MemberList.txt
+26.06.2020  15:16               225 Notizen_zum_Auftrag.txt
+               2 Datei(en),            281 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git
+
+26.06.2020  15:38                17 COMMIT_EDITMSG
+26.06.2020  15:37               519 config
+26.06.2020  14:53                73 description
+26.06.2020  16:10               220 FETCH_HEAD
+26.06.2020  16:02                23 HEAD
+26.06.2020  14:53    <DIR>          hooks
+26.06.2020  16:10             5'549 index
+26.06.2020  14:53    <DIR>          info
+26.06.2020  14:53    <DIR>          logs
+26.06.2020  16:10    <DIR>          objects
+26.06.2020  16:10                41 ORIG_HEAD
+26.06.2020  15:36               114 packed-refs
+26.06.2020  15:33    <DIR>          refs
+               8 Datei(en),          6'556 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\hooks
+
+26.06.2020  14:53    <DIR>          .
+26.06.2020  14:53    <DIR>          ..
+26.06.2020  14:53               478 applypatch-msg.sample
+26.06.2020  14:53               896 commit-msg.sample
+26.06.2020  14:53             3'327 fsmonitor-watchman.sample
+26.06.2020  14:53               189 post-update.sample
+26.06.2020  14:53               424 pre-applypatch.sample
+26.06.2020  14:53             1'638 pre-commit.sample
+26.06.2020  14:53             1'348 pre-push.sample
+26.06.2020  14:53             4'898 pre-rebase.sample
+26.06.2020  14:53               544 pre-receive.sample
+26.06.2020  14:53             1'492 prepare-commit-msg.sample
+26.06.2020  14:53             3'610 update.sample
+              11 Datei(en),         18'844 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\info
+
+26.06.2020  14:53    <DIR>          .
+26.06.2020  14:53    <DIR>          ..
+26.06.2020  14:53               240 exclude
+               1 Datei(en),            240 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\logs
+
+26.06.2020  14:53    <DIR>          .
+26.06.2020  14:53    <DIR>          ..
+26.06.2020  16:10             2'722 HEAD
+26.06.2020  15:33    <DIR>          refs
+               1 Datei(en),          2'722 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\logs\refs
+
+26.06.2020  15:33    <DIR>          .
+26.06.2020  15:33    <DIR>          ..
+26.06.2020  15:37    <DIR>          heads
+26.06.2020  14:53    <DIR>          remotes
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\logs\refs\heads
+
+26.06.2020  15:37    <DIR>          .
+26.06.2020  15:37    <DIR>          ..
+26.06.2020  16:10             1'285 master
+26.06.2020  15:31               174 mitglied2
+26.06.2020  15:05               336 test
+26.06.2020  15:38               336 test3
+               4 Datei(en),          2'131 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\logs\refs\remotes
+
+26.06.2020  14:53    <DIR>          .
+26.06.2020  14:53    <DIR>          ..
+26.06.2020  15:37    <DIR>          origin
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\logs\refs\remotes\origin
+
+26.06.2020  15:37    <DIR>          .
+26.06.2020  15:37    <DIR>          ..
+26.06.2020  14:53               205 HEAD
+26.06.2020  16:10             1'152 master
+26.06.2020  15:38               322 test3
+               3 Datei(en),          1'679 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  15:16    <DIR>          00
+26.06.2020  16:02    <DIR>          02
+26.06.2020  15:16    <DIR>          04
+26.06.2020  15:16    <DIR>          06
+26.06.2020  15:05    <DIR>          0f
+26.06.2020  15:16    <DIR>          11
+26.06.2020  15:05    <DIR>          15
+26.06.2020  16:10    <DIR>          16
+26.06.2020  14:58    <DIR>          17
+26.06.2020  16:07    <DIR>          18
+26.06.2020  15:16    <DIR>          19
+26.06.2020  15:05    <DIR>          1d
+26.06.2020  16:02    <DIR>          26
+26.06.2020  15:31    <DIR>          28
+26.06.2020  15:38    <DIR>          2c
+26.06.2020  15:05    <DIR>          34
+26.06.2020  15:16    <DIR>          36
+26.06.2020  15:16    <DIR>          37
+26.06.2020  16:10    <DIR>          39
+26.06.2020  16:02    <DIR>          3e
+26.06.2020  15:16    <DIR>          44
+26.06.2020  15:31    <DIR>          46
+26.06.2020  15:31    <DIR>          47
+26.06.2020  16:10    <DIR>          49
+26.06.2020  15:16    <DIR>          4d
+26.06.2020  16:02    <DIR>          4f
+26.06.2020  15:16    <DIR>          50
+26.06.2020  15:16    <DIR>          51
+26.06.2020  15:05    <DIR>          52
+26.06.2020  15:05    <DIR>          55
+26.06.2020  16:07    <DIR>          57
+26.06.2020  15:05    <DIR>          59
+26.06.2020  15:16    <DIR>          5c
+26.06.2020  15:16    <DIR>          5e
+26.06.2020  16:10    <DIR>          5f
+26.06.2020  15:16    <DIR>          68
+26.06.2020  15:05    <DIR>          6d
+26.06.2020  15:05    <DIR>          72
+26.06.2020  15:16    <DIR>          77
+26.06.2020  16:02    <DIR>          82
+26.06.2020  15:05    <DIR>          83
+26.06.2020  16:07    <DIR>          86
+26.06.2020  14:58    <DIR>          88
+26.06.2020  16:02    <DIR>          8a
+26.06.2020  15:16    <DIR>          8b
+26.06.2020  15:05    <DIR>          8e
+26.06.2020  16:02    <DIR>          92
+26.06.2020  16:07    <DIR>          97
+26.06.2020  15:16    <DIR>          98
+26.06.2020  15:05    <DIR>          9c
+26.06.2020  15:16    <DIR>          a5
+26.06.2020  15:16    <DIR>          a9
+26.06.2020  15:16    <DIR>          ab
+26.06.2020  16:07    <DIR>          b1
+26.06.2020  15:16    <DIR>          b6
+26.06.2020  15:05    <DIR>          b8
+26.06.2020  15:31    <DIR>          ba
+26.06.2020  16:07    <DIR>          c0
+26.06.2020  16:10    <DIR>          c5
+26.06.2020  15:16    <DIR>          cc
+26.06.2020  16:10    <DIR>          ce
+26.06.2020  16:10    <DIR>          cf
+26.06.2020  15:05    <DIR>          d0
+26.06.2020  15:05    <DIR>          d1
+26.06.2020  16:07    <DIR>          d4
+26.06.2020  15:16    <DIR>          d7
+26.06.2020  16:02    <DIR>          d9
+26.06.2020  16:07    <DIR>          df
+26.06.2020  14:58    <DIR>          e5
+26.06.2020  15:31    <DIR>          e7
+26.06.2020  15:16    <DIR>          e8
+26.06.2020  15:05    <DIR>          e9
+26.06.2020  16:07    <DIR>          ea
+26.06.2020  15:05    <DIR>          ee
+26.06.2020  15:16    <DIR>          ef
+26.06.2020  15:31    <DIR>          f3
+26.06.2020  16:10    <DIR>          f4
+26.06.2020  15:05    <DIR>          fc
+26.06.2020  16:07    <DIR>          fd
+26.06.2020  14:53    <DIR>          info
+26.06.2020  14:53    <DIR>          pack
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\00
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               439 cab17898428458e1460c43501bec6984b32241
+               1 Datei(en),            439 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\02
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  16:02               833 26b0afb02a9de184a3970eb2052a58ffb587e8
+               1 Datei(en),            833 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\04
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:05               575 2ed705cba8f4177da8cceee128fd8796e09e42
+26.06.2020  15:16               339 38ca8565a753bfe75f70d74f57b8a1397f0c57
+26.06.2020  15:05               692 dfc7caa2f9068c3e90c2efcc4cc0aaa95e737b
+               3 Datei(en),          1'606 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\06
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               219 b377d114cf2138d4b005edbc2774a0df14c57a
+               1 Datei(en),            219 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\0f
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               363 494e8e74fce15bf201f91f88d0feeec86c807c
+               1 Datei(en),            363 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\11
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               387 ab8596664d1c56ec87f1d746f6da8992dfef9a
+               1 Datei(en),            387 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\15
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               659 a438c83ba1278b2d46665bb54c5b901de8b17a
+26.06.2020  15:05               818 c19dccfd275c0410f3c4f9a093d999616480cd
+               2 Datei(en),          1'477 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\16
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:10               567 2d665aba67072fa2204f45f25c449bb16da61d
+               1 Datei(en),            567 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\17
+
+26.06.2020  14:58    <DIR>          .
+26.06.2020  14:58    <DIR>          ..
+26.06.2020  14:58                59 d3dc28f12c8ec05b5859a00f533638aceee367
+               1 Datei(en),             59 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\18
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  16:07               815 8602db71c10764c50e2b4bd47208ae42bde794
+               1 Datei(en),            815 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\19
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               458 8b3b47a98a11dd04d34d34e89c85e44b81da63
+               1 Datei(en),            458 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\1d
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               153 15212668c52d2f1475bda23534d87206bcf147
+               1 Datei(en),            153 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\26
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  16:02               865 195607e8ce73280fd26e27a77f56f786b21630
+               1 Datei(en),            865 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\28
+
+26.06.2020  15:31    <DIR>          .
+26.06.2020  15:31    <DIR>          ..
+26.06.2020  15:31               820 1b4f28e4aab00387b8700ab01b2ba9ccc42e80
+26.06.2020  15:16               451 6b3d7ff1dc533c77101c4b473a65e768ab0ce5
+               2 Datei(en),          1'271 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\2c
+
+26.06.2020  15:38    <DIR>          .
+26.06.2020  15:38    <DIR>          ..
+26.06.2020  15:38               173 77e6c077accd466a0b629e3459ecd5ade95e80
+               1 Datei(en),            173 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\34
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               597 422d92cd8be93c01ba675f741649c5fc52bab6
+               1 Datei(en),            597 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\36
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               321 d6b0734d116b20213467b9b56e9b8f7d628a61
+               1 Datei(en),            321 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\37
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               378 7f4c2100b4aa8b740f006b44f70bdf3abc04da
+               1 Datei(en),            378 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\39
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:10               181 86e9eaa838f71ec7de5fbc57a553697ba8e37a
+               1 Datei(en),            181 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\3e
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  16:02               343 d9c639883165ad0791679facc2d27ee7cad470
+               1 Datei(en),            343 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\44
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:05               529 4300b7d02034d4280471c785d94dc558e0d343
+26.06.2020  15:16               279 484a06fdcdd1cb187fda2d25837ded86b76187
+               2 Datei(en),            808 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\46
+
+26.06.2020  15:31    <DIR>          .
+26.06.2020  15:31    <DIR>          ..
+26.06.2020  15:05               613 668799654e2cfbbecdfa38bd131d55c8d9be9d
+26.06.2020  15:38               181 f23723262dff1da59b2d2c5b4f7d3e7baf91fb
+               2 Datei(en),            794 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\47
+
+26.06.2020  15:31    <DIR>          .
+26.06.2020  15:31    <DIR>          ..
+26.06.2020  15:31               221 7bba99a054e439e8223063285f2bd3ec630459
+               1 Datei(en),            221 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\49
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:07               814 5c55080fe8f4d97e3c27fbba4738b761e60fed
+26.06.2020  16:10               559 d350683fe4c4f338ae689943fe34c53fad1cc0
+               2 Datei(en),          1'373 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\4d
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               181 a65f792841e6115a76f4bb87bac1ac24fc8242
+               1 Datei(en),            181 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\4f
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  16:02               565 1747f5fdb0041b533f4417ea5446aefe6441d6
+               1 Datei(en),            565 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\50
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               179 4fd694c7e6c20e69c0315b81acc0a985f99d13
+26.06.2020  15:16               326 52ccd9677a3513cde3ac031f7790d436535d9b
+               2 Datei(en),            505 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\51
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               176 cb335777b42f5fae832616101cc3046d5b576f
+               1 Datei(en),            176 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\52
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               104 9c8f5d6e36e0ba71fcd5048091892c99a1ea0e
+               1 Datei(en),            104 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\55
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               585 e9aeb05392f42cb7782d5d08bae6b941b15348
+               1 Datei(en),            585 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\57
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  16:07               620 6724fe71c1d0bfc1c18a86ce3551c4770b2f8f
+               1 Datei(en),            620 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\59
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               624 d556b2a4d4be36b1edb24343d7f2b1ad9273ef
+               1 Datei(en),            624 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\5c
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               512 bb75b7d4697132c00f6fb0ee41bfd617212861
+               1 Datei(en),            512 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\5e
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               293 2e3e91f375356dc1f2d171863e721fd381defc
+               1 Datei(en),            293 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\5f
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:07               639 34b8f80150046a582d5b4b177d8e16d53d7f48
+26.06.2020  16:10               815 cb3ba194b149d2711397c87df622a5f00ea496
+               2 Datei(en),          1'454 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\68
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               443 5e22f50f5e5dcb44fa358c13656ca1dc281123
+               1 Datei(en),            443 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\6d
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               599 9cff1b65240a245ce2e6d44e37d1b30f3b8f20
+               1 Datei(en),            599 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\72
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               616 bdabd77a8a6336d792a2e79701c597577ce624
+               1 Datei(en),            616 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\77
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               374 296f5b0c954a530d094c52f39e56b062421454
+26.06.2020  15:16               211 c5be20bfe255d4599f645e60ec9719d3282b85
+               2 Datei(en),            585 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\82
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  15:05               613 23a82138c0f78ef489c5f7af8dbca05c8f4c5e
+26.06.2020  16:02               608 5b4ced219cab9de11ba2875b9c39a375f2b2d7
+26.06.2020  15:07               610 d260c3f3051a4693534d8b7c59c4ce41c27e78
+               3 Datei(en),          1'831 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\83
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:38               531 1152a6061ec0b9e84746d5f35e52f1b1f0575c
+               1 Datei(en),            531 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\86
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  16:07               181 c5ade18e0b3667b9d997985d05f06ab0bba4e3
+               1 Datei(en),            181 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\88
+
+26.06.2020  14:58    <DIR>          .
+26.06.2020  14:58    <DIR>          ..
+26.06.2020  14:58                59 87a2e2fe3134ee970db588317f164df20c5923
+               1 Datei(en),             59 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\8a
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  16:02               573 b9ad2cbeb9a1283fb8cca834c54153be0eb7bc
+               1 Datei(en),            573 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\8b
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               338 88e8fa7c56cbb1b708513cd5a6021fbad68116
+               1 Datei(en),            338 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\8e
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               648 9fb836993101f9ac1a1f3deca3f4aafbf7d902
+               1 Datei(en),            648 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\92
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  16:02               180 977cd4e5a4671e4a16b2caa33822a23f1f2ae0
+               1 Datei(en),            180 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\97
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  16:07               180 0b30ae16c581e5f9e1ef5f127c5529f93c775a
+               1 Datei(en),            180 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\98
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               761 e99dcd867335075fbd486e911df0018da2b505
+               1 Datei(en),            761 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\9c
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               177 931130ba55c5c32dea58afb372ef04a8812385
+               1 Datei(en),            177 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\a5
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               446 8d051d018a7baf81b5af92b66f2787e63ce061
+               1 Datei(en),            446 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\a9
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               152 ea100eaa71163a995954c40b628f479a2f8450
+               1 Datei(en),            152 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\ab
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               437 b7fbb490df0c5a7c16948ef0fc0311cf7b7948
+               1 Datei(en),            437 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\b1
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  16:07               549 fa35190a21ca9295cd45ad90d87987677e89cd
+               1 Datei(en),            549 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\b6
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               373 ddaaa3470e43e63b5a3d6d72fea238a45b9afa
+               1 Datei(en),            373 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\b8
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               631 e656b9c617d667fb874b06b1d8eea2eecdb103
+               1 Datei(en),            631 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\ba
+
+26.06.2020  15:31    <DIR>          .
+26.06.2020  15:31    <DIR>          ..
+26.06.2020  15:31               221 033b73cf94a966be0778b3ca8a9be0aab6cc50
+               1 Datei(en),            221 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\c0
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  15:16               384 0866581614b40dd07a1867d63147a260ec7f2b
+26.06.2020  16:07               815 d05ee113f0ccdc503fc342c22c9a7208b764f3
+               2 Datei(en),          1'199 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\c5
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:10               559 1a7faa36b5235a66694b6fc09a571d68ca96e3
+               1 Datei(en),            559 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\cc
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               179 2cca204d461bd28fcba06bf6b83336a00ff2e8
+26.06.2020  15:16               186 a828b183be2d12380a06b847f6915bc68aed4f
+               2 Datei(en),            365 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\ce
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:10               560 88a2a5290467415c30387cab2ee6aa5566e20b
+               1 Datei(en),            560 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\cf
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:10               815 167ce0bb0f16163ff1a44d55925dbe9495af34
+               1 Datei(en),            815 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\d0
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               558 2a34ee7cec61c73f549d83141681816400e7b3
+               1 Datei(en),            558 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\d1
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               466 f992e17271c5221d820b014e4219c07169178f
+               1 Datei(en),            466 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\d4
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  16:07               572 9e23187927d3b7521f8d50c2b77b7e8017b9b2
+               1 Datei(en),            572 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\d7
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               622 d00ac34d0cb3bc4629507745aac64ca9c98348
+               1 Datei(en),            622 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\d9
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  16:02               635 d79b4fd8003644c39efdf1d48bcfb364114148
+               1 Datei(en),            635 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\df
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  16:07               180 8ad9a0ceb88733e0a21f7f5c05e21f875e0c2e
+               1 Datei(en),            180 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\e5
+
+26.06.2020  14:58    <DIR>          .
+26.06.2020  14:58    <DIR>          ..
+26.06.2020  14:58               552 56f336c2fde1eb8be80ea3c22849ff1ed55517
+               1 Datei(en),            552 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\e7
+
+26.06.2020  15:31    <DIR>          .
+26.06.2020  15:31    <DIR>          ..
+26.06.2020  15:16               347 4822e9bf89a96cfbb0c3597dbf2d7d24ea99f1
+26.06.2020  15:38               815 b82f4bf8623c0909f46ffc525e35b56af7e94a
+               2 Datei(en),          1'162 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\e8
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               277 6998533a42ff7832c00851303dcc2ee119ee8f
+               1 Datei(en),            277 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\e9
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               399 7ad1957707f8ffd7085a5169c5217410d20f85
+               1 Datei(en),            399 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\ea
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  15:05               633 2b7d9bc59fda3fe0560718376048ec8de28a4f
+26.06.2020  16:07               622 7a72785af4eaafa92d348ecbd47ddce5aa3635
+               2 Datei(en),          1'255 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\ee
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               600 f8e17c70d8ebec517d1c82f7065fceab3c5417
+               1 Datei(en),            600 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\ef
+
+26.06.2020  15:16    <DIR>          .
+26.06.2020  15:16    <DIR>          ..
+26.06.2020  15:16               865 d19c23212a30bf05fd5a0ae25eec764965cce5
+               1 Datei(en),            865 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\f3
+
+26.06.2020  15:31    <DIR>          .
+26.06.2020  15:31    <DIR>          ..
+26.06.2020  15:05               493 60f679be4b9567595787548fb1ed16872fcd2b
+26.06.2020  15:31               181 ba9581e7981f6797d07d9d1a3b08f850915ead
+               2 Datei(en),            674 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\f4
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:10               181 107ce1ac14fceb9d6ce4f1deb2ebebdd93fa3e
+26.06.2020  16:02               181 8bec1b3601ceea603b7a43ef16ace10631ad0f
+               2 Datei(en),            362 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\fc
+
+26.06.2020  15:05    <DIR>          .
+26.06.2020  15:05    <DIR>          ..
+26.06.2020  15:05               720 595b0945f87198f8eca8804830705417f2c4b9
+               1 Datei(en),            720 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\fd
+
+26.06.2020  16:07    <DIR>          .
+26.06.2020  16:07    <DIR>          ..
+26.06.2020  16:07               574 d3a420b82935b57925332c9622912e7e24f082
+               1 Datei(en),            574 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\info
+
+26.06.2020  14:53    <DIR>          .
+26.06.2020  14:53    <DIR>          ..
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\objects\pack
+
+26.06.2020  14:53    <DIR>          .
+26.06.2020  14:53    <DIR>          ..
+26.06.2020  14:53             1'156 pack-fda5761f4762b882bb6b6aeabf95da9aa25b081a.idx
+26.06.2020  14:53               637 pack-fda5761f4762b882bb6b6aeabf95da9aa25b081a.pack
+               2 Datei(en),          1'793 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\refs
+
+26.06.2020  15:33    <DIR>          .
+26.06.2020  15:33    <DIR>          ..
+26.06.2020  16:10    <DIR>          heads
+26.06.2020  14:53    <DIR>          remotes
+26.06.2020  14:53    <DIR>          tags
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\refs\heads
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  16:10                41 master
+26.06.2020  15:31                41 mitglied2
+26.06.2020  15:05                41 test
+26.06.2020  15:38                41 test3
+               4 Datei(en),            164 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\refs\remotes
+
+26.06.2020  14:53    <DIR>          .
+26.06.2020  14:53    <DIR>          ..
+26.06.2020  16:10    <DIR>          origin
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\refs\remotes\origin
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  14:53                32 HEAD
+26.06.2020  16:10                41 master
+26.06.2020  15:38                41 test3
+               3 Datei(en),            114 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\.git\refs\tags
+
+26.06.2020  14:53    <DIR>          .
+26.06.2020  14:53    <DIR>          ..
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\Java_File_IO_Examples
+
+26.06.2020  16:02    <DIR>          .
+26.06.2020  16:02    <DIR>          ..
+26.06.2020  15:16             1'233 @README.txt
+26.06.2020  15:16               838 ByteArrToInputStream.java
+26.06.2020  15:16             1'055 ByteWriteToFile.java
+26.06.2020  15:16               601 ClassLoaderFileLoading.java
+26.06.2020  15:16               327 FileListFromFolder.java
+26.06.2020  15:16               328 FilesListFromFolder.java
+26.06.2020  15:16             1'005 FileToByteArray.java
+26.06.2020  15:16             1'056 MyByteArrayToReader.java
+26.06.2020  15:16               655 MyFileFilter.java
+26.06.2020  15:16               262 MyFileLastModified.java
+26.06.2020  15:16             1'318 MyFileOperations.java
+26.06.2020  15:16               855 MyFilePermissions.java
+26.06.2020  15:16             1'021 MyFileReadBybis.java
+26.06.2020  15:16               230 MyFileUrl.java
+26.06.2020  15:16               796 MyFileXmlStore.java
+26.06.2020  16:02               676 MyFilteredFileList.java
+26.06.2020  15:16               943 MyIstoBr.java
+26.06.2020  15:16             2'817 MyObjectFileStore.java
+26.06.2020  15:16               799 MyPropertyFileStore.java
+26.06.2020  15:16             1'180 MyTempDelete.java
+26.06.2020  15:16               836 MyTempFileWrite.java
+26.06.2020  15:16               513 MyTmpFile.java
+26.06.2020  15:16               828 ReadFromConsole.java
+26.06.2020  15:16               748 ReadLinesFromFile.java
+26.06.2020  15:16             1'067 WriteToFile.java
+              25 Datei(en),         21'987 Bytes
+
+ Verzeichnis von C:\Users\ldjek\Documents\GitHub\5is18b-M143_AF\Java_JDBC_Examples
+
+26.06.2020  16:10    <DIR>          .
+26.06.2020  16:10    <DIR>          ..
+26.06.2020  15:07             1'611 @README.txt
+26.06.2020  15:07               248 @README2.txt
+26.06.2020  15:07               849 JdbcConnection.java
+26.06.2020  15:07             1'639 MyAutoGeneratedKeys.java
+26.06.2020  15:31             1'348 MyBatchCallableStatement.java
+26.06.2020  15:07             1'733 MyBatchPreparedStmt.java
+26.06.2020  15:07             1'635 MyBlobInsert.java
+26.06.2020  15:07             2'176 MyBlobRead.java
+26.06.2020  15:07               806 MyConnWithProperties.java
+26.06.2020  15:07             1'487 MyCursorCallableStmt.java
+26.06.2020  15:07             1'239 MyDatabaseMetadata.java
+26.06.2020  15:07             1'658 MyExecuteMethod.java
+26.06.2020  15:07             1'443 MyFunctionCallableStmt.java
+26.06.2020  15:07             1'446 MyOutparmCallableStmt.java
+26.06.2020  16:07             1'539 MyPreparedStatement.java
+26.06.2020  15:07             1'656 MyPrepStmtResltSet.java
+26.06.2020  16:10             1'291 MyQueryUpdate.java
+26.06.2020  15:07             1'194 MyResultSetEx.java
+26.06.2020  15:07             1'507 MyResultSetMetadata.java
+26.06.2020  15:07             1'748 MyScrollableResultSetEx.java
+26.06.2020  15:07             1'255 MySimpleCallableStatement.java
+26.06.2020  15:07             1'685 MyStatementBatchUpdate.java
+26.06.2020  15:07             1'533 MyUpdatableResultSet.java
+              23 Datei(en),         32'726 Bytes
+
+     Anzahl der angezeigten Dateien:
+             184 Datei(en),        134'039 Bytes
+             290 Verzeichnis(se), 431'806'214'144 Bytes frei

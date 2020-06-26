@@ -1,0 +1,308 @@
+2020-06-19T06:19:45.816Z - info: [main] Received possible protocol arguments: 2
+2020-06-19T06:19:45.821Z - error: [main] Malformed launch arguments received: C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe,--squirrel-firstrun
+2020-06-19T06:19:46.969Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-19T06:19:47.029Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:19:47.613Z - info: [ui] Opt in reported.
+2020-06-19T06:19:47.635Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:19:48.411Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T06:19:48.411Z - info: [ui] execPath: 'C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T06:19:48.489Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:19:52.327Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 4.656s)
+2020-06-19T06:19:58.407Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T06:19:58.408Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T06:19:58.410Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=7a7fe2fc-d2e9-4b4b-8ee3-84f2c5cf1a3e
+2020-06-19T06:19:58.410Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2020-06-19T06:19:59.259Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:21:47.066Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:34:56.090Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:34:59.020Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2020-06-19T06:35:02.256Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:35:03.324Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:35:06.722Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-19T06:35:06.752Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:35:06.963Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:35:07.488Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T06:35:07.488Z - info: [ui] execPath: 'C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T06:35:07.543Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:35:07.828Z - error: [ui] Error checking for updates
+Error: Command failed: 4294967295
+System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebException: Der Remotename konnte nicht aufgel�st werden: 'central.github.com'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- Ende der internen Ausnahmestapel�berwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   bei System.Threading.Tasks.Task`1.get_Result()
+   bei Squirrel.Update.Program.executeCommandLine(String[] args)
+   bei Squirrel.Update.Program.main(String[] args)
+   bei Squirrel.Update.Program.Main(String[] args)
+---> (Interne Ausnahme #0) System.Net.WebException: Der Remotename konnte nicht aufgel�st werden: 'central.github.com'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+
+    at AutoUpdater.emitError (electron/js2c/browser_init.js:324:24)
+    at electron/js2c/browser_init.js:300:21
+    at electron/js2c/browser_init.js:431:14
+    at ChildProcess.<anonymous> (electron/js2c/browser_init.js:413:14)
+    at ChildProcess.emit (events.js:203:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)
+2020-06-19T06:35:13.310Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T06:35:13.312Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T06:35:13.314Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=de1ba32a-1153-4d70-a950-37ecb2dfa0c6
+2020-06-19T06:35:13.314Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2020-06-19T06:35:13.529Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:37:06.781Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:37:18.824Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:37:20.179Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:53:06.781Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:53:06.786Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:53:09.059Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:53:15.418Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:53:19.531Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-19T06:53:19.552Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:53:19.648Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:53:19.961Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T06:53:19.961Z - info: [ui] execPath: 'C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T06:53:20.024Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:53:21.495Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T06:53:21.496Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T06:53:21.497Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=18f016e5-da70-4cc4-abe7-87e9d2adf688
+2020-06-19T06:53:21.497Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2020-06-19T06:53:21.636Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:54:13.514Z - info: [main] Received possible protocol arguments: 5
+2020-06-19T06:54:13.515Z - info: [main] Processing protocol url
+2020-06-19T06:54:13.529Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-19T06:54:13.536Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T06:54:13.613Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T06:54:13.614Z - info: [main] Processing protocol url
+2020-06-19T06:54:14.596Z - info: [ui] [SignInStore] account resolved
+2020-06-19T06:54:14.597Z - info: [ui] [AppStore] adding account addj-bbw (addj-bbw) to store
+2020-06-19T06:54:14.612Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2020-06-19T06:54:14.688Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:54:14.841Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:54:44.895Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:54:51.525Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:54:52.679Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:54:56.626Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:54:58.125Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:55:19.598Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:56:03.380Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T06:56:06.068Z - info: [ui] [Welcome] advancing to step: UsageOptOut
+2020-06-19T06:56:14.657Z - info: [ui] Opt in reported.
+2020-06-19T07:12:39.087Z - info: [ui] Executing tutorial:push: git push -u origin master (took 5.896s)
+2020-06-19T07:12:39.144Z - info: [ui] [AppStore] adding tutorial repository at C:\Users\ldjek\Documents\GitHub\desktop-tutorial to store
+2020-06-19T07:12:39.777Z - info: [ui] Current tutorial step is now PickEditor
+2020-06-19T07:12:51.395Z - info: [ui] Current tutorial step is now CreateBranch
+2020-06-19T07:13:09.739Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.953s)
+2020-06-19T07:15:46.533Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T07:16:04.279Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: desktop-tutorial - addj-bbw (has token)
+2020-06-19T07:16:04.713Z - info: [ui] Current tutorial step is now EditFile
+2020-06-19T07:16:04.718Z - info: [ui] [Timing] Action 'create branch' for 'addj-bbw/desktop-tutorial' took 0.555s
+2020-06-19T07:16:52.775Z - error: [ui] `git rev-parse --is-bare-repository` exited with an unexpected code: 128.
+stderr:
+fatal: not a git repository (or any of the parent directories): .git
+
+(The error was parsed as 28: This is not a git repository.)
+2020-06-19T07:17:55.122Z - error: [ui] `git rev-parse --is-bare-repository` exited with an unexpected code: 128.
+stderr:
+fatal: not a git repository (or any of the parent directories): .git
+
+(The error was parsed as 28: This is not a git repository.)
+2020-06-19T07:18:24.837Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: desktop-tutorial - addj-bbw (has token)
+2020-06-19T07:18:29.149Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin test --set-upstream --progress (took 4.247s)
+2020-06-19T07:18:31.210Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.994s)
+2020-06-19T07:18:31.654Z - info: [ui] Current tutorial step is now Paused
+2020-06-19T07:19:21.350Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/5is18b-AdnanDjeka.git - addj-bbw (has token)
+2020-06-19T07:19:24.254Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/5is18b-AdnanDjeka.git C:\Users\ldjek\Documents\GitHub\5is18b-AdnanDjeka (took 2.800s)
+2020-06-19T07:19:24.330Z - info: [ui] [AppStore] adding repository at C:\Users\ldjek\Documents\GitHub\5is18b-AdnanDjeka to store
+2020-06-19T07:19:24.720Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T07:19:24.843Z - info: [ui] Current tutorial step is now Paused
+2020-06-19T07:20:57.704Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T07:20:57.813Z - info: [ui] Current tutorial step is now EditFile
+2020-06-19T07:21:13.575Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T07:21:14.755Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T07:21:14.954Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.578s)
+2020-06-19T08:00:04.812Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-19T08:00:04.815Z - info: [ui] [AppStore] found account: addj-bbw (addj-bbw)
+2020-06-19T08:00:05.142Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-19T08:00:06.017Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T08:00:06.018Z - info: [ui] execPath: 'C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T08:00:06.599Z - info: [ui] Stats reported.
+2020-06-19T08:00:09.198Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T08:00:10.817Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.782s)
+2020-06-19T08:00:13.812Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-19T08:00:13.814Z - info: [ui] [AppStore] found account: addj-bbw (addj-bbw)
+2020-06-19T08:00:14.080Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-19T08:00:14.870Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T08:00:14.871Z - info: [ui] execPath: 'C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T08:00:40.166Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T08:00:43.429Z - info: [ui] [AppStore] removing account addj-bbw (addj-bbw) from store
+2020-06-19T08:31:33.623Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.350s)
+2020-06-19T08:34:10.932Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T08:34:10.932Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=78819375-6741-45a9-b60b-8c2420b35866
+2020-06-19T08:34:15.371Z - info: [main] Received possible protocol arguments: 5
+2020-06-19T08:34:15.371Z - info: [main] Processing protocol url
+2020-06-19T08:34:15.387Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-19T08:34:15.477Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T08:34:15.478Z - info: [main] Processing protocol url
+2020-06-19T08:34:16.245Z - info: [ui] [SignInStore] account resolved
+2020-06-19T08:34:16.247Z - info: [ui] [AppStore] adding account addj-bbw (addj-bbw) to store
+2020-06-19T08:34:30.537Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T08:34:51.752Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T09:06:03.400Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.941s)
+2020-06-19T09:22:56.246Z - info: [main] opening in browser: https://atom.io/
+2020-06-19T09:37:17.763Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.039s)
+2020-06-19T09:47:20.283Z - warn: [ui] fetchRepository: an error occurred for 'addj-bbw/5is18b-AdnanDjeka'
+TypeError: Failed to fetch
+2020-06-19T09:47:20.284Z - warn: [ui] fetchRepository: an error occurred for 'addj-bbw/5is18b-AdnanDjeka'
+TypeError: Failed to fetch
+2020-06-19T09:47:43.089Z - warn: [ui] getFetchPollInterval: failed for addj-bbw/5is18b-AdnanDjeka
+TypeError: Failed to fetch
+2020-06-19T10:48:17.837Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 1.269s)
+2020-06-19T10:48:17.947Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.424s)
+2020-06-19T10:48:20.139Z - info: [ui] Executing getRemotes: git remote -v (took 2.191s)
+2020-06-19T10:48:20.195Z - warn: [ui] fetchRepository: an error occurred for 'addj-bbw/5is18b-AdnanDjeka'
+TypeError: Failed to fetch
+2020-06-19T10:48:20.214Z - warn: [ui] fetchRepository: an error occurred for 'addj-bbw/5is18b-AdnanDjeka'
+TypeError: Failed to fetch
+2020-06-19T10:48:20.247Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-AdnanDjeka - addj-bbw (has token)
+2020-06-19T10:48:20.459Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.641s)
+2020-06-19T10:48:20.466Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/addj-bbw/5is18b-AdnanDjeka.git/': Could not resolve host: github.com
+
+2020-06-19T10:48:20.713Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-06-19T10:48:22.113Z - warn: [ui] getFetchPollInterval: failed for addj-bbw/5is18b-AdnanDjeka
+TypeError: Failed to fetch
+2020-06-19T11:02:14.301Z - warn: [ui] fetchRepository: an error occurred for 'addj-bbw/5is18b-AdnanDjeka'
+TypeError: Failed to fetch
+2020-06-19T11:02:14.308Z - warn: [ui] fetchRepository: an error occurred for 'addj-bbw/5is18b-AdnanDjeka'
+TypeError: Failed to fetch
+2020-06-19T11:02:14.309Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-AdnanDjeka - addj-bbw (has token)
+2020-06-19T11:02:14.555Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/addj-bbw/5is18b-AdnanDjeka.git/': Could not resolve host: github.com
+
+2020-06-19T11:02:14.656Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-06-19T11:19:52.331Z - warn: [ui] fetchRepository: an error occurred for 'addj-bbw/5is18b-AdnanDjeka'
+TypeError: Failed to fetch
+2020-06-19T11:19:52.336Z - warn: [ui] fetchRepository: an error occurred for 'addj-bbw/5is18b-AdnanDjeka'
+TypeError: Failed to fetch
+2020-06-19T11:19:52.338Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-AdnanDjeka - addj-bbw (has token)
+2020-06-19T11:19:52.964Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/addj-bbw/5is18b-AdnanDjeka.git/': Could not resolve host: github.com
+
+2020-06-19T11:19:53.125Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-06-19T11:56:18.544Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-19T11:56:18.547Z - info: [ui] [AppStore] found account: addj-bbw (addj-bbw)
+2020-06-19T11:56:18.815Z - info: [ui] [BranchPruner] Last prune took place in 21 hours - skipping
+2020-06-19T11:56:19.520Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T11:56:19.520Z - info: [ui] execPath: 'C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T11:56:22.620Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.601s)
+2020-06-19T11:56:23.588Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T11:57:28.797Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/echoserver.git - addj-bbw (has token)
+2020-06-19T11:57:33.019Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/echoserver.git C:\Users\ldjek\Documents\GitHub\echoserver (took 4.126s)
+2020-06-19T11:57:33.077Z - info: [ui] [AppStore] adding repository at C:\Users\ldjek\Documents\GitHub\echoserver to store
+2020-06-19T11:57:33.214Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-19T11:58:18.937Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: echoserver - addj-bbw (has token)
+2020-06-19T11:58:21.162Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.159s)
+2020-06-19T11:58:21.925Z - info: [ui] Background fetch for 2 repositories took 3.271sec
+2020-06-19T11:59:17.597Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T11:59:29.294Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: echoserver - addj-bbw (has token)
+2020-06-19T11:59:31.275Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.913s)
+2020-06-19T11:59:33.118Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: echoserver - addj-bbw (has token)
+2020-06-19T11:59:33.606Z - info: [ui] [Timing] Action 'checkout branch from list' for 'addj-bbw/echoserver' took 0.489s
+2020-06-19T11:59:35.935Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: echoserver - addj-bbw (has token)
+2020-06-19T11:59:36.420Z - info: [ui] [Timing] Action 'checkout branch from list' for 'addj-bbw/echoserver' took 0.476s
+2020-06-19T11:59:48.245Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: echoserver - addj-bbw (has token)
+2020-06-19T11:59:50.057Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.738s)
+2020-06-19T11:59:50.871Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: echoserver - addj-bbw (has token)
+2020-06-19T11:59:51.317Z - info: [ui] [Timing] Action 'checkout branch from list' for 'addj-bbw/echoserver' took 0.440s
+2020-06-19T12:13:25.219Z - info: [ui] Background fetch for 2 repositories took 2.984sec
+2020-06-19T12:20:28.469Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:20:37.697Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:20:43.355Z - info: [main] opening in browser: https://help.github.com/articles/set-up-git/#setting-up-git
+2020-06-19T12:20:51.049Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:20:52.873Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:20:52.988Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:21:30.727Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-19T12:21:30.729Z - info: [ui] [AppStore] found account: addj-bbw (addj-bbw)
+2020-06-19T12:21:31.704Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T12:21:31.705Z - info: [ui] execPath: 'C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T12:21:37.709Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:21:37.806Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:23:31.938Z - info: [ui] Background fetch for 2 repositories took 1.118sec
+2020-06-19T12:31:53.044Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.766s)
+2020-06-19T12:36:22.861Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.643s)
+2020-06-19T12:37:36.478Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-19T12:37:36.481Z - info: [ui] [AppStore] found account: addj-bbw (addj-bbw)
+2020-06-19T12:37:37.532Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T12:37:37.533Z - info: [ui] execPath: 'C:\Users\ldjek\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T12:38:10.208Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/echoserver.git - addj-bbw (has token)
+2020-06-19T12:38:13.296Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/echoserver.git C:\Users\ldjek\Documents\GitHub\echoserver (took 2.973s)
+2020-06-19T12:38:13.350Z - info: [ui] [AppStore] adding repository at C:\Users\ldjek\Documents\GitHub\echoserver to store
+2020-06-19T12:38:13.788Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:38:42.737Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:38:42.835Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:39:37.774Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: echoserver - addj-bbw (has token)
+2020-06-19T12:39:39.515Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.660s)
+2020-06-19T12:39:40.229Z - info: [ui] Background fetch for 2 repositories took 3.657sec
+2020-06-19T12:53:02.371Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-19T12:53:11.203Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:53:16.874Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:54:41.378Z - info: [ui] Background fetch for 2 repositories took 1.121sec
+2020-06-19T13:09:42.124Z - info: [ui] Background fetch for 2 repositories took 0.912sec
+2020-06-19T13:13:30.971Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.667s)
+2020-06-19T13:24:45.375Z - info: [ui] Background fetch for 2 repositories took 4.164sec
+2020-06-19T13:37:05.139Z - warn: [ui] getFetchPollInterval: failed for addj-bbw/echoserver
+TypeError: Failed to fetch
+2020-06-19T13:39:42.243Z - info: [ui] Background fetch for 2 repositories took 1.021sec
