@@ -1,0 +1,117 @@
+2020-06-19T12:24:16.973Z - info: [main] Received possible protocol arguments: 2
+2020-06-19T12:24:16.975Z - error: [main] Malformed launch arguments received: C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe,--squirrel-firstrun
+2020-06-19T12:24:19.236Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-19T12:24:19.296Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:21.879Z - info: [ui] launching: 2.5.2 (Windows 10.0.17763)
+2020-06-19T12:24:21.879Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T12:24:21.883Z - info: [ui] Opt in reported.
+2020-06-19T12:24:21.885Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:21.938Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:22.783Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 3.311s)
+2020-06-19T12:24:26.249Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T12:24:26.250Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T12:24:26.251Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=1278cccb-2a06-4e64-a56a-1f7ad3ee1ab9
+2020-06-19T12:24:26.259Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2020-06-19T12:24:26.481Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:24:33.483Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:24:38.105Z - info: [ui] [Welcome] advancing to step: Start
+2020-06-19T12:24:41.111Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:46.495Z - info: [main] Received possible protocol arguments: 5
+2020-06-19T12:24:46.495Z - info: [main] Processing protocol url
+2020-06-19T12:24:46.514Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-19T12:24:46.518Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:46.674Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T12:24:46.674Z - info: [main] Processing protocol url
+2020-06-19T12:24:47.930Z - info: [ui] [SignInStore] account resolved
+2020-06-19T12:24:47.930Z - info: [ui] [AppStore] adding account FaridGiordano (FaridGiordano) to store
+2020-06-19T12:24:47.934Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:47.948Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:48.408Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:49.072Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T12:24:49.073Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T12:24:49.073Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=163d95e9-0775-4289-91cc-b006cac5b77f
+2020-06-19T12:24:49.254Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:03.604Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:22.083Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:22.095Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:23.663Z - info: [ui] [Welcome] advancing to step: Start
+2020-06-19T12:25:24.670Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T12:25:24.673Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T12:25:24.674Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=1c4a98a3-c3e2-4f45-89f3-189ea870f54d
+2020-06-19T12:25:24.675Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:24.825Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:38.121Z - info: [main] Received possible protocol arguments: 5
+2020-06-19T12:25:38.121Z - info: [main] Processing protocol url
+2020-06-19T12:25:38.131Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-19T12:25:38.144Z - warn: [ui] requestAuthenticatedUser was not called with valid OAuth state. This is likely due to a browser reloading the callback URL. Contact GitHub Support if you believe this is an error
+2020-06-19T12:25:38.145Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:38.284Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T12:25:38.285Z - info: [main] Processing protocol url
+2020-06-19T12:25:44.234Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:26:19.304Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:31:52.403Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:31:53.510Z - info: [ui] [Welcome] advancing to step: Start
+2020-06-19T12:31:54.446Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T12:31:54.449Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T12:31:54.449Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=64596bf3-23cd-49ae-bc20-ac8f443a49c9
+2020-06-19T12:31:54.450Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:31:54.602Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:31:56.490Z - info: [main] Received possible protocol arguments: 5
+2020-06-19T12:31:56.490Z - info: [main] Processing protocol url
+2020-06-19T12:31:56.495Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-19T12:31:56.508Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:31:56.606Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T12:31:56.607Z - info: [main] Processing protocol url
+2020-06-19T12:31:57.824Z - info: [ui] [SignInStore] account resolved
+2020-06-19T12:31:57.825Z - info: [ui] [AppStore] adding account FaridGiordano (FaridGiordano) to store
+2020-06-19T12:31:57.836Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2020-06-19T12:31:57.935Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:31:58.239Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:32:01.572Z - info: [ui] [Welcome] advancing to step: UsageOptOut
+2020-06-19T12:32:04.316Z - info: [ui] Opt in reported.
+2020-06-19T12:45:54.392Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/FaridGiordano/5IS18b-FaridGiordano.git - FaridGiordano (has token)
+2020-06-19T12:46:00.527Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/FaridGiordano/5IS18b-FaridGiordano.git \\fs-win-1\home\gfa\Documents\GitHub\5IS18b-FaridGiordano (took 5.865s)
+2020-06-19T12:46:00.709Z - info: [ui] [AppStore] adding repository at \\fs-win-1\home\gfa\Documents\GitHub\5IS18b-FaridGiordano to store
+2020-06-19T12:46:03.651Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 1.074s)
+2020-06-19T12:46:04.260Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.188s)
+2020-06-19T12:46:04.309Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 1.271s)
+2020-06-19T12:46:04.782Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 1.140s)
+2020-06-19T12:46:05.059Z - info: [ui] Executing isUsingLFS: git lfs track (took 4.104s)
+2020-06-19T12:46:06.339Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:46:08.078Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.337s)
+2020-06-19T12:46:10.412Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:46:14.620Z - info: [main] opening in browser: https://help.github.com/articles/set-up-git/#setting-up-git
+2020-06-19T12:48:05.914Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-19T12:48:05.916Z - info: [ui] [AppStore] found account: FaridGiordano (FaridGiordano)
+2020-06-19T12:48:06.233Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-19T12:48:07.143Z - info: [ui] launching: 2.5.2 (Windows 10.0.17763)
+2020-06-19T12:48:07.143Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T12:48:07.711Z - info: [ui] Stats reported.
+2020-06-19T12:48:08.155Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.067s)
+2020-06-19T12:48:18.286Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:48:18.417Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:48:26.262Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:48:59.828Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:49:30.027Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/FaridGiordano/5IS18b-FaridGiordano.git - FaridGiordano (has token)
+2020-06-19T12:49:37.618Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/FaridGiordano/5IS18b-FaridGiordano.git \\fs-win-1\home\gfa\Documents\GitHub\5IS18b-FaridGiordano1 (took 7.399s)
+2020-06-19T12:49:37.807Z - info: [ui] [AppStore] adding repository at \\fs-win-1\home\gfa\Documents\GitHub\5IS18b-FaridGiordano1 to store
+2020-06-19T12:49:41.618Z - info: [ui] Executing isUsingLFS: git lfs track (took 3.620s)
+2020-06-19T12:49:42.959Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:49:43.059Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:49:44.835Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.308s)
+2020-06-19T12:50:01.652Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:54:10.496Z - info: [main] opening in browser: https://github.com/FaridGiordano/5IS18b-FaridGiordano
+2020-06-19T12:54:33.840Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-19T12:54:44.478Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5IS18b-FaridGiordano - FaridGiordano (has token)
+2020-06-19T12:54:46.734Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.063s)
+2020-06-19T12:54:53.591Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:55:54.946Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:56:50.859Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/FaridGiordano/5IS18b-FaridGiordano.git - FaridGiordano (has token)
+2020-06-19T12:56:55.024Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/FaridGiordano/5IS18b-FaridGiordano.git C:\Temp\5IS18b-FaridGiordano (took 3.923s)
+2020-06-19T12:56:55.183Z - info: [ui] [AppStore] adding repository at C:\Temp\5IS18b-FaridGiordano to store
+2020-06-19T12:56:59.097Z - info: [ui] Executing isUsingLFS: git lfs track (took 3.757s)
+2020-06-19T12:57:00.209Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:57:01.821Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.075s)
+2020-06-19T12:57:03.681Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T13:29:58.985Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.320s)
+2020-06-19T13:38:21.166Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping

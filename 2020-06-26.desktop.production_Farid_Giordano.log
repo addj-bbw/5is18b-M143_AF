@@ -1,0 +1,413 @@
+2020-06-26T12:03:51.989Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-26T12:03:51.991Z - info: [ui] [AppStore] found account: FaridGiordano (FaridGiordano)
+2020-06-26T12:03:53.419Z - info: [ui] launching: 2.5.2 (Windows 10.0.17763)
+2020-06-26T12:03:53.420Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-26T12:03:53.913Z - info: [ui] Stats reported.
+2020-06-26T12:03:55.178Z - info: [ui] Executing getCommits: git log origin/master..master --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 1.049s)
+2020-06-26T12:03:55.186Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.067s)
+2020-06-26T12:03:55.231Z - info: [ui] Executing getRemotes: git remote -v (took 1.097s)
+2020-06-26T12:03:55.247Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.104s)
+2020-06-26T12:03:55.298Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.130s)
+2020-06-26T12:03:56.384Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 3.163s)
+2020-06-26T12:04:12.193Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.062s)
+2020-06-26T12:13:50.687Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/5is18b-M143_AF.git - FaridGiordano (has token)
+2020-06-26T12:13:55.210Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/5is18b-M143_AF.git C:\Temp\5IS18b-M143_AF\5is18b-M143_AF (took 4.223s)
+2020-06-26T12:13:55.335Z - info: [ui] [AppStore] adding repository at C:\Temp\5IS18b-M143_AF\5is18b-M143_AF to store
+2020-06-26T12:13:56.309Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T12:13:56.970Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.387s)
+2020-06-26T12:13:59.515Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.026s)
+2020-06-26T12:13:59.616Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.149s)
+2020-06-26T12:13:59.646Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.153s)
+2020-06-26T12:14:00.142Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.061s)
+2020-06-26T12:14:00.142Z - info: [ui] Executing getRemotes: git remote -v (took 1.046s)
+2020-06-26T12:14:01.684Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T12:14:07.296Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 5.943s)
+2020-06-26T12:14:28.185Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-26T12:20:55.728Z - info: [ui] Background fetch for 2 repositories took 1.929sec
+2020-06-26T12:24:49.532Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:24:51.235Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.548s)
+2020-06-26T12:27:05.462Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.046s)
+2020-06-26T12:27:05.462Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.023s)
+2020-06-26T12:27:05.540Z - info: [ui] Executing getRemotes: git remote -v (took 1.110s)
+2020-06-26T12:27:05.541Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.069s)
+2020-06-26T12:27:19.764Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:27:21.598Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.676s)
+2020-06-26T12:27:23.345Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 1.576s)
+2020-06-26T12:27:27.508Z - info: [ui] [Timing] Action 'checkout branch from list' for 'faridgiordano/5is18b-M143_AF' took 0.001s
+2020-06-26T12:27:31.972Z - info: [ui] [Timing] Action 'checkout branch from list' for 'faridgiordano/5is18b-M143_AF' took 0.000s
+2020-06-26T12:27:34.283Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:27:34.871Z - error: [ui] `git -c credential.helper= -c protocol.version=2 checkout --progress upstream/master -b master --` exited with an unexpected code: 128.
+stderr:
+fatal: A branch named 'master' already exists.
+
+(The error was parsed as 26: A branch with that name already exists.)
+2020-06-26T12:27:36.365Z - info: [ui] [Timing] Action 'stash and checkout' for 'faridgiordano/5is18b-M143_AF' took 3.081s
+2020-06-26T12:27:55.100Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:27:55.505Z - error: [ui] `git -c credential.helper= -c protocol.version=2 checkout --progress upstream/master -b master --` exited with an unexpected code: 128.
+stderr:
+fatal: A branch named 'master' already exists.
+
+(The error was parsed as 26: A branch with that name already exists.)
+2020-06-26T12:27:56.705Z - info: [ui] [Timing] Action 'checkout branch from list' for 'faridgiordano/5is18b-M143_AF' took 1.605s
+2020-06-26T12:28:56.134Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T12:28:58.913Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T12:30:09.101Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:30:10.844Z - info: [ui] [Timing] Action 'create branch' for 'faridgiordano/5is18b-M143_AF' took 1.991s
+2020-06-26T12:30:29.884Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.032s)
+2020-06-26T12:30:30.022Z - info: [ui] Executing getRemotes: git remote -v (took 1.177s)
+2020-06-26T12:30:30.033Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.173s)
+2020-06-26T12:30:41.050Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 1.275s)
+2020-06-26T12:31:22.929Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T12:31:55.645Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:31:56.058Z - error: [ui] `git -c credential.helper= -c protocol.version=2 checkout --progress upstream/master -b master --` exited with an unexpected code: 128.
+stderr:
+fatal: A branch named 'master' already exists.
+
+(The error was parsed as 26: A branch with that name already exists.)
+2020-06-26T12:31:57.466Z - info: [ui] [Timing] Action 'checkout branch from list' for 'faridgiordano/5is18b-M143_AF' took 1.821s
+2020-06-26T12:32:00.414Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:32:02.375Z - info: [ui] [Timing] Action 'checkout branch from list' for 'faridgiordano/5is18b-M143_AF' took 1.961s
+2020-06-26T12:32:59.552Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:33:01.662Z - info: [ui] [Timing] Action 'checkout branch from list' for 'faridgiordano/5is18b-M143_AF' took 2.111s
+2020-06-26T12:35:55.498Z - info: [ui] Background fetch for 2 repositories took 1.691sec
+2020-06-26T12:50:55.458Z - info: [ui] Background fetch for 2 repositories took 1.609sec
+2020-06-26T12:57:25.546Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:59:11.983Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin Test_AF --set-upstream --progress (took 106.283s)
+2020-06-26T12:59:11.987Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin Test_AF --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/FaridGiordano/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T12:59:29.586Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T12:59:30.776Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.568s)
+2020-06-26T12:59:30.920Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 1.334s)
+2020-06-26T13:01:18.085Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin Test_AF --set-upstream --progress (took 107.011s)
+2020-06-26T13:01:18.086Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin Test_AF --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/FaridGiordano/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T13:04:07.741Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.604s)
+2020-06-26T13:04:09.512Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 1.622s)
+2020-06-26T13:06:57.087Z - info: [ui] Background fetch for 2 repositories took 63.168sec
+2020-06-26T13:09:16.913Z - info: [ui] [Timing] Action 'create commit' for 'faridgiordano/5is18b-M143_AF' took 2.721s
+2020-06-26T13:09:17.884Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:09:27.702Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin Test_AF --set-upstream --progress (took 8.465s)
+2020-06-26T13:09:30.143Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.257s)
+2020-06-26T13:09:33.982Z - info: [main] opening in browser: https://github.com/FaridGiordano/5is18b-M143_AF/pull/new/Test_AF
+2020-06-26T13:11:28.178Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:13:14.662Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 106.225s)
+2020-06-26T13:13:14.666Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/FaridGiordano/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T13:15:01.928Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 106.904s)
+2020-06-26T13:15:01.928Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/addj-bbw/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T13:15:49.598Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:15:51.475Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.677s)
+2020-06-26T13:15:53.650Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 1.990s)
+2020-06-26T13:15:57.208Z - info: [main] opening in browser: https://github.com/FaridGiordano/5is18b-M143_AF/pull/new/Test_AF
+2020-06-26T13:17:30.409Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:17:32.345Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.774s)
+2020-06-26T13:17:34.204Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 1.726s)
+2020-06-26T13:18:16.363Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-26T13:18:16.366Z - info: [ui] [AppStore] found account: FaridGiordano (FaridGiordano)
+2020-06-26T13:18:20.534Z - info: [ui] launching: 2.5.3 (Windows 10.0.17763)
+2020-06-26T13:18:20.535Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T13:18:23.175Z - info: [ui] Executing getRemotes: git remote -v (took 6.794s)
+2020-06-26T13:18:23.181Z - info: [ui] Executing getRemotes: git remote -v (took 6.779s)
+2020-06-26T13:18:23.182Z - info: [ui] Executing getRemotes: git remote -v (took 6.442s)
+2020-06-26T13:18:23.207Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 6.517s)
+2020-06-26T13:18:24.238Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-26T13:18:42.070Z - info: [ui] Executing getRemotes: git remote -v (took 17.919s)
+2020-06-26T13:18:42.071Z - info: [ui] Executing getRemotes: git remote -v (took 17.910s)
+2020-06-26T13:18:42.128Z - info: [ui] Executing getCommits: git log 51cb335777b42f5fae832616101cc3046d5b576f --date=raw --max-count=1 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 18.915s)
+2020-06-26T13:18:42.203Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 20.435s)
+2020-06-26T13:18:42.238Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 18.035s)
+2020-06-26T13:18:55.920Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 11.599s)
+2020-06-26T13:18:55.940Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 13.803s)
+2020-06-26T13:18:56.039Z - info: [ui] Executing getCommits: git log 51cb335777b42f5fae832616101cc3046d5b576f --date=raw --max-count=1 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 13.801s)
+2020-06-26T13:18:56.069Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 16.815s)
+2020-06-26T13:18:56.070Z - info: [ui] Executing getCommits: git log 51cb335777b42f5fae832616101cc3046d5b576f --date=raw --max-count=1 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 13.865s)
+2020-06-26T13:18:56.838Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 39.753s)
+2020-06-26T13:18:57.669Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 1.272s)
+2020-06-26T13:18:57.682Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.102s)
+2020-06-26T13:19:04.269Z - info: [ui] Executing getRemotes: git remote -v (took 7.337s)
+2020-06-26T13:19:04.278Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 7.325s)
+2020-06-26T13:19:04.278Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 6.509s)
+2020-06-26T13:19:04.302Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 6.534s)
+2020-06-26T13:19:04.331Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 6.589s)
+2020-06-26T13:19:04.332Z - info: [ui] Executing getCommits: git log origin/Test_AF..Test_AF --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 7.765s)
+2020-06-26T13:19:04.371Z - info: [ui] Executing getCommits: git log origin/Test_AF..Test_AF --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 7.457s)
+2020-06-26T13:19:04.371Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 7.432s)
+2020-06-26T13:19:04.378Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 6.701s)
+2020-06-26T13:19:04.379Z - info: [ui] Executing getRemotes: git remote -v (took 6.624s)
+2020-06-26T13:19:04.380Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 7.414s)
+2020-06-26T13:19:04.388Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 7.414s)
+2020-06-26T13:19:04.448Z - info: [ui] Executing getCommits: git log origin/Test_AF..Test_AF --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 6.698s)
+2020-06-26T13:19:04.453Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 6.781s)
+2020-06-26T13:19:22.900Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 18.468s)
+2020-06-26T13:19:22.900Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 18.495s)
+2020-06-26T13:19:22.931Z - info: [ui] Executing getCommits: git log origin/Test_AF..Test_AF --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 18.531s)
+2020-06-26T13:19:22.931Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 18.453s)
+2020-06-26T13:19:22.966Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 18.617s)
+2020-06-26T13:19:22.988Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 18.616s)
+2020-06-26T13:19:22.998Z - info: [ui] Executing getRemotes: git remote -v (took 18.528s)
+2020-06-26T13:19:22.998Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 18.486s)
+2020-06-26T13:19:23.030Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 18.642s)
+2020-06-26T13:19:23.031Z - info: [ui] Executing getRemotes: git remote -v (took 18.631s)
+2020-06-26T13:19:23.038Z - info: [ui] Executing getCommits: git log origin/Test_AF..Test_AF --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 18.576s)
+2020-06-26T13:19:23.068Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 18.612s)
+2020-06-26T13:19:23.068Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 18.621s)
+2020-06-26T13:19:41.718Z - info: [ui] Executing getRemotes: git remote -v (took 18.649s)
+2020-06-26T13:19:41.738Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 18.707s)
+2020-06-26T13:19:41.799Z - info: [ui] Executing getRemotes: git remote -v (took 18.809s)
+2020-06-26T13:19:41.807Z - info: [ui] Executing getRemotes: git remote -v (took 18.839s)
+2020-06-26T13:19:41.821Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 6.999s)
+2020-06-26T13:19:41.840Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 18.801s)
+2020-06-26T13:19:47.171Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:19:56.079Z - info: [ui] Executing getRemotes: git remote -v (took 14.339s)
+2020-06-26T13:19:56.085Z - info: [ui] Executing getAheadBehind: git rev-list --left-right --count 51cb335777b42f5fae832616101cc3046d5b576f...d7d00ac34d0cb3bc4629507745aac64ca9c98348 -- (took 14.279s)
+2020-06-26T13:19:56.144Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 8.944s)
+2020-06-26T13:19:56.160Z - info: [ui] Executing getAheadBehind: git rev-list --left-right --count 51cb335777b42f5fae832616101cc3046d5b576f...d7d00ac34d0cb3bc4629507745aac64ca9c98348 -- (took 14.359s)
+2020-06-26T13:19:56.161Z - info: [ui] Executing getAheadBehind: git rev-list --left-right --count 51cb335777b42f5fae832616101cc3046d5b576f...d7d00ac34d0cb3bc4629507745aac64ca9c98348 -- (took 14.433s)
+2020-06-26T13:19:56.178Z - info: [ui] Executing getAheadBehind: git rev-list --left-right --count master...origin/master -- (took 14.404s)
+2020-06-26T13:19:56.179Z - info: [ui] Executing getRemotes: git remote -v (took 14.339s)
+2020-06-26T13:19:56.264Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 14.436s)
+2020-06-26T13:19:56.265Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 14.431s)
+2020-06-26T13:19:59.129Z - info: [ui] [Timing] Action 'checkout branch from list' for 'faridgiordano/5is18b-M143_AF' took 11.956s
+2020-06-26T13:19:59.732Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:20:01.871Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.840s)
+2020-06-26T13:20:28.150Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 11.662s)
+2020-06-26T13:20:43.390Z - info: [ui] Executing getRemotes: git remote -v (took 26.724s)
+2020-06-26T13:20:46.605Z - info: [ui] Executing getCommits: git log f74b8cb04a911bb59515da005dd1c7e6ff886b05 --date=raw --max-count=1 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 18.453s)
+2020-06-26T13:20:46.642Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 44.582s)
+2020-06-26T13:21:06.348Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-26T13:21:06.352Z - info: [ui] [AppStore] found account: FaridGiordano (FaridGiordano)
+2020-06-26T13:21:07.492Z - info: [ui] launching: 2.5.3 (Windows 10.0.17763)
+2020-06-26T13:21:07.493Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T13:21:14.749Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:21:15.873Z - info: [ui] Executing getAheadBehind: git rev-list --left-right --count d81d3a895b991975cb6317269e8853856637debb...d7d00ac34d0cb3bc4629507745aac64ca9c98348 -- (took 6.502s)
+2020-06-26T13:21:15.906Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 8.465s)
+2020-06-26T13:21:34.791Z - info: [ui] Executing getCommitDiff: git log 65d085abbd1c94d2c89baa27b04d308e7d2ff2c1 -m -1 --first-parent --patch-with-raw -z --no-color -- Java_File_IO_Examples/@README.txt (took 16.967s)
+2020-06-26T13:21:34.805Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 18.930s)
+2020-06-26T13:21:35.065Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 20.248s)
+2020-06-26T13:21:53.581Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 18.776s)
+2020-06-26T13:21:53.589Z - info: [ui] Executing getPartialBlobContents: git show 65d085abbd1c94d2c89baa27b04d308e7d2ff2c1:Java_File_IO_Examples/@README.txt (took 18.550s)
+2020-06-26T13:21:53.731Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 14.045s)
+2020-06-26T13:21:56.201Z - info: [ui] Executing getCommits: git log d81d3a895b991975cb6317269e8853856637debb^ --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 2.512s)
+2020-06-26T13:21:56.224Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.426s)
+2020-06-26T13:21:56.224Z - info: [ui] Executing getRemotes: git remote -v (took 2.702s)
+2020-06-26T13:21:56.225Z - info: [ui] Executing getChangedFiles: git log d81d3a895b991975cb6317269e8853856637debb -C -M -m -1 --no-show-signature --first-parent --name-status --format=format: -z -- (took 2.640s)
+2020-06-26T13:21:56.254Z - info: [ui] Executing getCommits: git log origin/master..master --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 2.784s)
+2020-06-26T13:21:56.263Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 2.470s)
+2020-06-26T13:23:13.017Z - info: [ui] Executing getRemotes: git remote -v (took 6.347s)
+2020-06-26T13:23:25.096Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 18.618s)
+2020-06-26T13:23:40.386Z - info: [ui] Executing getCommits: git log f74b8cb04a911bb59515da005dd1c7e6ff886b05 --date=raw --max-count=1 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 15.282s)
+2020-06-26T13:23:42.708Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 127.641s)
+2020-06-26T13:23:42.711Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/FaridGiordano/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T13:23:55.762Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 15.374s)
+2020-06-26T13:23:55.789Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 13.010s)
+2020-06-26T13:23:57.937Z - info: [ui] Background fetch for 2 repositories took 51.460sec
+2020-06-26T13:23:57.977Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 2.187s)
+2020-06-26T13:24:30.283Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 7.185s)
+2020-06-26T13:24:48.879Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 18.589s)
+2020-06-26T13:24:48.880Z - info: [ui] Executing getRemotes: git remote -v (took 8.849s)
+2020-06-26T13:24:48.924Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 8.785s)
+2020-06-26T13:24:48.934Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 20.161s)
+2020-06-26T13:24:48.951Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 8.935s)
+2020-06-26T13:24:48.951Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 18.665s)
+2020-06-26T13:24:56.538Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 7.528s)
+2020-06-26T13:24:56.542Z - info: [ui] Executing getRemotes: git remote -v (took 7.543s)
+2020-06-26T13:24:56.566Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 7.619s)
+2020-06-26T13:24:56.566Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 7.539s)
+2020-06-26T13:24:56.593Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 7.534s)
+2020-06-26T13:24:56.593Z - info: [ui] Executing getCommits: git log origin/master..master --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 7.620s)
+2020-06-26T13:24:56.595Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 7.644s)
+2020-06-26T13:24:56.621Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 7.671s)
+2020-06-26T13:24:56.667Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 7.628s)
+2020-06-26T13:24:57.696Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.009s)
+2020-06-26T13:24:57.704Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.056s)
+2020-06-26T13:24:57.766Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.092s)
+2020-06-26T13:24:57.808Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.127s)
+2020-06-26T13:24:57.808Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.181s)
+2020-06-26T13:24:58.176Z - error: [ui] `git rev-list --left-right --count d81d3a895b991975cb6317269e8853856637debb...d7d00ac34d0cb3bc4629507745aac64ca9c98348 --` exited with an unexpected code: 128.
+stderr:
+fatal: Invalid symmetric difference expression d81d3a895b991975cb6317269e8853856637debb...d7d00ac34d0cb3bc4629507745aac64ca9c98348
+
+2020-06-26T13:24:58.528Z - error: [ui] `git rev-list --left-right --count d81d3a895b991975cb6317269e8853856637debb...d7d00ac34d0cb3bc4629507745aac64ca9c98348 --` exited with an unexpected code: 128.
+stderr:
+fatal: Invalid symmetric difference expression d81d3a895b991975cb6317269e8853856637debb...d7d00ac34d0cb3bc4629507745aac64ca9c98348
+
+2020-06-26T13:24:59.137Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 10.213s)
+2020-06-26T13:25:53.906Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 6.738s)
+2020-06-26T13:25:56.535Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 2.627s)
+2020-06-26T13:25:56.543Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.626s)
+2020-06-26T13:26:07.852Z - info: [ui] Executing getRemotes: git remote -v (took 1.185s)
+2020-06-26T13:26:09.847Z - info: [ui] Executing getRemotes: git remote -v (took 1.202s)
+2020-06-26T13:26:09.881Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.226s)
+2020-06-26T13:26:09.882Z - info: [ui] Executing getCommits: git log origin/master..master --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 1.212s)
+2020-06-26T13:26:09.902Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.251s)
+2020-06-26T13:26:10.065Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.393s)
+2020-06-26T13:26:34.850Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/5is18b-M143_AF.git - FaridGiordano (has token)
+2020-06-26T13:26:38.284Z - info: [ui] Executing getConfigValueInPath: git config -z --global protocol.version (took 3.433s)
+2020-06-26T13:27:00.675Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/5is18b-M143_AF.git C:\Temp\5IS18b-M143_AF\ (took 22.336s)
+2020-06-26T13:27:00.828Z - info: [ui] [AppStore] adding repository at C:\Temp\5IS18b-M143_AF\ to store
+2020-06-26T13:27:00.985Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-26T13:27:02.265Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.027s)
+2020-06-26T13:27:04.560Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.074s)
+2020-06-26T13:27:24.113Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 6.821s)
+2020-06-26T13:27:42.840Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 18.769s)
+2020-06-26T13:27:42.850Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 18.771s)
+2020-06-26T13:27:42.917Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 10.288s)
+2020-06-26T13:27:56.785Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 13.888s)
+2020-06-26T13:27:56.786Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 13.860s)
+2020-06-26T13:27:56.791Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 13.900s)
+2020-06-26T13:27:56.810Z - info: [ui] Executing getRemotes: git remote -v (took 13.947s)
+2020-06-26T13:27:56.811Z - info: [ui] Executing getCommits: git log origin/master..master --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 13.953s)
+2020-06-26T13:27:56.828Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 13.908s)
+2020-06-26T13:27:56.867Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 14.016s)
+2020-06-26T13:28:37.425Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 7.449s)
+2020-06-26T13:28:56.045Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 18.612s)
+2020-06-26T13:28:56.888Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 19.461s)
+2020-06-26T13:29:39.762Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.622s)
+2020-06-26T13:29:56.863Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 17.084s)
+2020-06-26T13:29:56.894Z - info: [ui] Executing getWorkingDirectoryDiff: git diff --no-ext-diff --no-index --patch-with-raw -z --no-color -- /dev/null Java_File_IO_Examples/MyFilteredFileList.java (took 17.110s)
+2020-06-26T13:29:57.059Z - info: [ui] Executing unstageAll: git reset -- . (took 1.037s)
+2020-06-26T13:29:57.080Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 17.296s)
+2020-06-26T13:30:00.474Z - info: [ui] [Timing] Action 'create commit' for 'addj-bbw/5is18b-M143_AF' took 4.467s
+2020-06-26T13:30:01.126Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:30:43.552Z - info: [ui] Executing getRemotes: git remote -v (took 6.536s)
+2020-06-26T13:31:45.946Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 22.623s)
+2020-06-26T13:31:45.990Z - info: [ui] Executing getRemotes: git remote -v (took 9.814s)
+2020-06-26T13:31:47.666Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 106.355s)
+2020-06-26T13:31:47.670Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/addj-bbw/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T13:31:59.737Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 13.789s)
+2020-06-26T13:31:59.785Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 13.830s)
+2020-06-26T13:32:46.038Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 18.613s)
+2020-06-26T13:34:56.855Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.470s)
+2020-06-26T13:35:00.113Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 3.256s)
+2020-06-26T13:35:00.120Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 3.257s)
+2020-06-26T13:35:02.302Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 136.257s)
+2020-06-26T13:35:02.304Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/addj-bbw/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T13:36:00.125Z - info: [ui] Executing getRemotes: git remote -v (took 1.327s)
+2020-06-26T13:37:57.423Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 18.634s)
+2020-06-26T13:38:00.357Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.926s)
+2020-06-26T13:38:00.384Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 2.960s)
+2020-06-26T13:39:00.485Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.529s)
+2020-06-26T13:39:02.641Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:39:05.085Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.246s)
+2020-06-26T13:39:12.156Z - info: [ui] Executing getCommits: git log origin/master..master --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 6.684s)
+2020-06-26T13:39:12.172Z - info: [ui] Executing getRemotes: git remote -v (took 6.695s)
+2020-06-26T13:39:12.192Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 6.704s)
+2020-06-26T13:39:12.192Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 6.710s)
+2020-06-26T13:39:12.196Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 6.733s)
+2020-06-26T13:39:27.434Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 15.278s)
+2020-06-26T13:39:49.121Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 21.686s)
+2020-06-26T13:39:49.129Z - info: [ui] Background fetch for 2 repositories took 51.167sec
+2020-06-26T13:40:52.292Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.521s)
+2020-06-26T13:41:00.551Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 8.246s)
+2020-06-26T13:41:00.573Z - info: [ui] Executing getWorkingDirectoryDiff: git diff HEAD --no-ext-diff --patch-with-raw -z --no-color -- Java_File_IO_Examples/MyFilteredFileList.java (took 8.280s)
+2020-06-26T13:41:00.632Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 8.332s)
+2020-06-26T13:41:02.395Z - info: [ui] [Timing] Action 'create branch' for 'addj-bbw/5is18b-M143_AF' took 0.239s
+2020-06-26T13:41:08.758Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:41:11.139Z - info: [ui] [Timing] Action 'stash and checkout' for 'addj-bbw/5is18b-M143_AF' took 2.914s
+2020-06-26T13:41:15.172Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:43:09.702Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-26T13:43:09.705Z - info: [ui] [AppStore] found account: FaridGiordano (FaridGiordano)
+2020-06-26T13:43:10.864Z - info: [ui] launching: 2.5.3 (Windows 10.0.17763)
+2020-06-26T13:43:10.865Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T13:43:13.636Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 2.851s)
+2020-06-26T13:45:12.024Z - info: [ui] Background fetch for 2 repositories took 2.164sec
+2020-06-26T13:45:24.253Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:45:26.525Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin Test_4 --set-upstream --progress (took 2.026s)
+2020-06-26T13:46:23.626Z - error: [ui] forkRepository: failed to fork addj-bbw/5is18b-M143_AF at endpoint: https://api.github.com
+TypeError: Failed to fetch
+2020-06-26T13:46:23.626Z - error: [ui] Fork creation through API failed (TypeError: Failed to fetch)
+2020-06-26T13:47:28.557Z - info: [main] Error report submitted
+2020-06-26T13:49:51.421Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-26T13:49:51.426Z - info: [ui] [AppStore] found account: FaridGiordano (FaridGiordano)
+2020-06-26T13:49:52.749Z - info: [ui] launching: 2.5.3 (Windows 10.0.17763)
+2020-06-26T13:49:52.750Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T13:49:54.304Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.591s)
+2020-06-26T13:49:56.672Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-26T13:50:12.774Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:53:54.271Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-26T13:53:54.274Z - info: [ui] [AppStore] found account: FaridGiordano (FaridGiordano)
+2020-06-26T13:53:55.679Z - info: [ui] launching: 2.5.3 (Windows 10.0.17763)
+2020-06-26T13:53:55.680Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T13:53:57.440Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.565s)
+2020-06-26T13:53:57.441Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 1.607s)
+2020-06-26T13:53:57.752Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 2.115s)
+2020-06-26T13:53:58.525Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color --not --remotes -- (took 1.063s)
+2020-06-26T13:53:58.587Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.142s)
+2020-06-26T13:53:58.611Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.109s)
+2020-06-26T13:53:58.615Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.057s)
+2020-06-26T13:53:58.619Z - info: [ui] Executing getRemotes: git remote -v (took 1.141s)
+2020-06-26T13:55:43.100Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:55:45.842Z - info: [ui] [Timing] Action 'checkout branch from list' for 'addj-bbw/5is18b-M143_AF' took 2.720s
+2020-06-26T13:55:51.037Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:55:53.884Z - info: [ui] [Timing] Action 'checkout branch from list' for 'addj-bbw/5is18b-M143_AF' took 2.839s
+2020-06-26T13:55:56.393Z - info: [ui] Background fetch for 2 repositories took 1.961sec
+2020-06-26T13:56:02.759Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:56:04.972Z - info: [ui] [Timing] Action 'checkout branch from list' for 'addj-bbw/5is18b-M143_AF' took 2.208s
+2020-06-26T13:56:05.673Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T13:56:08.241Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 2.221s)
+2020-06-26T13:56:38.299Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.007s)
+2020-06-26T13:56:39.771Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.969s)
+2020-06-26T13:56:56.232Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-26T14:00:40.487Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/5is18b-M143_AF.git - FaridGiordano (has token)
+2020-06-26T14:02:28.509Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/5is18b-M143_AF.git C:\Temp\5is18b-M143_AF (took 107.527s)
+2020-06-26T14:02:28.565Z - error: [ui] `git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/5is18b-M143_AF.git C:\Temp\5is18b-M143_AF` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Temp\5is18b-M143_AF'...
+fatal: unable to access 'https://github.com/addj-bbw/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T14:11:04.504Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 8.046s)
+2020-06-26T14:16:52.374Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/5is18b-M143_AF.git - FaridGiordano (has token)
+2020-06-26T14:18:39.563Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/5is18b-M143_AF.git C:\Temp\5is18b-M143_AF (took 106.672s)
+2020-06-26T14:18:39.567Z - error: [ui] `git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/5is18b-M143_AF.git C:\Temp\5is18b-M143_AF` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Temp\5is18b-M143_AF'...
+fatal: unable to access 'https://github.com/addj-bbw/5is18b-M143_AF.git/': Proxy CONNECT aborted
+
+2020-06-26T14:20:13.680Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/5is18b-M143_AF.git - FaridGiordano (has token)
+2020-06-26T14:20:51.914Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-26T14:20:51.917Z - info: [ui] [AppStore] found account: FaridGiordano (FaridGiordano)
+2020-06-26T14:20:55.912Z - info: [ui] launching: 2.5.3 (Windows 10.0.17763)
+2020-06-26T14:20:55.914Z - info: [ui] execPath: 'C:\Users\gfa\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T14:20:55.924Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 3.279s)
+2020-06-26T14:20:55.927Z - info: [ui] Executing getCommits: git log f74b8cb04a911bb59515da005dd1c7e6ff886b05 --date=raw --max-count=1 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 3.406s)
+2020-06-26T14:22:22.304Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/addj-bbw/5is18b-M143_AF.git - FaridGiordano (has token)
+2020-06-26T14:22:28.620Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/addj-bbw/5is18b-M143_AF.git C:\Temp\5is18b-M143_AF (took 5.732s)
+2020-06-26T14:22:28.918Z - info: [ui] [AppStore] adding repository at C:\Temp\5is18b-M143_AF to store
+2020-06-26T14:22:30.216Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T14:22:33.706Z - info: [ui] Executing isUsingLFS: git lfs track (took 4.161s)
+2020-06-26T14:22:37.584Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.075s)
+2020-06-26T14:22:37.626Z - info: [ui] Executing getCommits: git log origin/master..master --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 1.079s)
+2020-06-26T14:22:37.692Z - info: [ui] Executing getRemotes: git remote -v (took 1.089s)
+2020-06-26T14:22:37.848Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.231s)
+2020-06-26T14:22:37.902Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.178s)
+2020-06-26T14:22:37.903Z - info: [ui] Executing getRemotes: git remote -v (took 1.189s)
+2020-06-26T14:22:37.927Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.275s)
+2020-06-26T14:22:37.927Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.135s)
+2020-06-26T14:22:37.928Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.283s)
+2020-06-26T14:22:37.989Z - info: [ui] Executing getCommits: git log origin/master..master --date=raw --max-count=100 --pretty=%H%x1F%h%x1F%s%x1F%b%x1F%an <%ae> %ad%x1F%cn <%ce> %cd%x1F%P%x1F%(trailers:unfold,only)%x1F%D -z --no-show-signature --no-color -- (took 1.282s)
+2020-06-26T14:22:53.209Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_AF - FaridGiordano (has token)
+2020-06-26T14:22:55.354Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.962s)
+2020-06-26T14:22:57.191Z - info: [ui] Background fetch for 2 repositories took 5.129sec
+2020-06-26T14:22:58.947Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T14:32:50.425Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.826s)
+2020-06-26T14:32:52.312Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.572s)
+2020-06-26T14:32:52.367Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.588s)
+2020-06-26T14:32:52.382Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.574s)

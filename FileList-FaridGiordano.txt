@@ -1,0 +1,173 @@
+ Datentr„ger in Laufwerk C: ist NB-WIN-GFA-1
+ Volumeseriennummer: 4681-5D51
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56    <DIR>          EchoServer
+19.06.2020  14:56                74 README.md
+               1 Datei(en),             74 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git
+
+19.06.2020  14:56               344 config
+19.06.2020  14:56                73 description
+26.06.2020  15:56               115 FETCH_HEAD
+19.06.2020  14:56                23 HEAD
+19.06.2020  14:56    <DIR>          hooks
+19.06.2020  14:56               700 index
+19.06.2020  14:56    <DIR>          info
+19.06.2020  14:56    <DIR>          logs
+19.06.2020  14:56    <DIR>          objects
+19.06.2020  14:56               114 packed-refs
+19.06.2020  14:56    <DIR>          refs
+               6 Datei(en),          1'369 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\hooks
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56               478 applypatch-msg.sample
+19.06.2020  14:56               896 commit-msg.sample
+19.06.2020  14:56             3'327 fsmonitor-watchman.sample
+19.06.2020  14:56               189 post-update.sample
+19.06.2020  14:56               424 pre-applypatch.sample
+19.06.2020  14:56             1'638 pre-commit.sample
+19.06.2020  14:56             1'348 pre-push.sample
+19.06.2020  14:56             4'898 pre-rebase.sample
+19.06.2020  14:56               544 pre-receive.sample
+19.06.2020  14:56             1'492 prepare-commit-msg.sample
+19.06.2020  14:56             3'610 update.sample
+              11 Datei(en),         18'844 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\info
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56               240 exclude
+               1 Datei(en),            240 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\logs
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56               233 HEAD
+19.06.2020  14:56    <DIR>          refs
+               1 Datei(en),            233 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\logs\refs
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56    <DIR>          heads
+19.06.2020  14:56    <DIR>          remotes
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\logs\refs\heads
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56               233 master
+               1 Datei(en),            233 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\logs\refs\remotes
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56    <DIR>          origin
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\logs\refs\remotes\origin
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56               233 HEAD
+               1 Datei(en),            233 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\objects
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56    <DIR>          info
+19.06.2020  14:56    <DIR>          pack
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\objects\info
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\objects\pack
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56             1'968 pack-7c586a8cf8fbf11e546816338d22f2104ae107a0.idx
+19.06.2020  14:56            13'123 pack-7c586a8cf8fbf11e546816338d22f2104ae107a0.pack
+               2 Datei(en),         15'091 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\refs
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56    <DIR>          heads
+19.06.2020  14:56    <DIR>          remotes
+19.06.2020  14:56    <DIR>          tags
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\refs\heads
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56                41 master
+               1 Datei(en),             41 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\refs\remotes
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56    <DIR>          origin
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\refs\remotes\origin
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56                32 HEAD
+               1 Datei(en),             32 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\.git\refs\tags
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\EchoServer
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56    <DIR>          jar
+19.06.2020  14:56             1'368 README.txt
+19.06.2020  14:56    <DIR>          src
+               1 Datei(en),          1'368 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\EchoServer\jar
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56             1'972 MyEchoClient.jar
+19.06.2020  14:56             3'171 MyEchoServer.jar
+               2 Datei(en),          5'143 Bytes
+
+ Verzeichnis von C:\Temp\5IS18b-FaridGiordano\EchoServer\src
+
+19.06.2020  14:56    <DIR>          .
+19.06.2020  14:56    <DIR>          ..
+19.06.2020  14:56             2'740 MyEchoClient.java
+19.06.2020  14:56             5'259 MyEchoServer.java
+               2 Datei(en),          7'999 Bytes
+
+     Anzahl der angezeigten Dateien:
+              31 Datei(en),         50'900 Bytes
+              56 Verzeichnis(se), 161'308'602'368 Bytes frei
