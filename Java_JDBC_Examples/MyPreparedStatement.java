@@ -20,14 +20,14 @@ public class MyPreparedStatement {
             prSt = con.prepareStatement(query);
             prSt.setString(1, "John");
             prSt.setInt(2, 10000);
-            //count will give you how many records got updated //Farid Giordano (member1)
+            //count will give you how many records got updated
             int count = prSt.executeUpdate();
             //Run the same query with different values
             prSt.setString(1, "Cric");
             prSt.setInt(2, 5000);
             count = prSt.executeUpdate();
         } catch (ClassNotFoundException e) {
-            // TODO Auto-generated catch block
+            // TODO Auto-generated catch block -- Adnan Djeka (member 2)
             e.printStackTrace();
         } catch (SQLException e) {
             // TODO Auto-generated catch block
