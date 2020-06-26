@@ -1,0 +1,8 @@
+Hallo zusammen
+
+Weil wir kein drittes Mitglied haben, lassen wir den "Member 3" im Auftrag aus. 
+Wir haben die einzelnen Punkte zusammen geloest. 
+
+Farid Giordano: Java_File_IO_Examples
+
+Adnan Djeka: Java_JDBC_Examples
